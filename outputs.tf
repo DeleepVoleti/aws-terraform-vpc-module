@@ -1,4 +1,3 @@
-# output "az_names" {
-#     value = data.aws_availability_zones.az_data.names
-  
-# }
+output "vpc_id" {
+  value = aws_vpc.main.id
+}
